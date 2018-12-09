@@ -20,8 +20,8 @@ class DiceRoller
   end
 
   def read(file)
-    File.foreach(file) do |x| 
-      roll_b2(x) 
+    File.foreach(file) do |x|
+      roll_b2(x)
     end
   end
 end
